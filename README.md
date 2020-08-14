@@ -1,2 +1,2 @@
-# the-wine-store
-DThompsonDEV Tutorial
+# The-Wine-Store
+ DThompsonDEV Tutorial

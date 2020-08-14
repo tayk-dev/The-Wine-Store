@@ -1,0 +1,88 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 180%;
+    color: #777777;
+    text-align: center;
+}
+
+.parallax1 {
+    background: url(https://cdn.pixabay.com/photo/2015/04/25/03/09/cork-738603_960_720.jpg);
+    min-height: 100%;
+}
+
+.parallax2 {
+    background: url(https://cdn.pixabay.com/photo/2015/03/08/22/31/wine-664818_960_720.jpg);
+    min-height: 100%;
+}
+
+.parallax3 {
+    background: url(https://cdn.pixabay.com/photo/2015/03/08/22/35/wine-664833_960_720.jpg);
+    min-height: 100%;
+}
+
+.parallax4 {
+    background: url(https://cdn.pixabay.com/photo/2020/05/04/14/44/restaurant-5129458_960_720.jpg);
+    min-height: 100%;
+}
+
+.parallax1, .parallax2, .parallax3, .parallax4 {
+    position: relative;
+    opacity: .75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading {
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    width: 100%;
+    font-size: 550%;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: 0 0 10px #000;
+    line-height: 90px;
+}
+
+.heading-sm {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    width: 100%;
+    font-size: 350%;
+    text-transform: uppercase;
+    letter-spacing: ;
+    text-shadow: 0 0 10px #000;
+    line-height: 50px;
+}
+
+.two-col {
+    float: left;
+    width: 40%;
+    padding: 0 5%;
+    text-align: center;
+}
+
+section {
+    overflow: auto;
+    padding: 50px 80px;
+}
+
+.dark {
+    overflow: auto;
+    padding: 50px 70px;
+    background-color: #323232;
+    color: #fff;
+}
+
+.footer {
+    text-align: center;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-style: italic;
+}
